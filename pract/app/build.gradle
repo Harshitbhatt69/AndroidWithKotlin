@@ -7,10 +7,12 @@ android {
     compileSdk 30
 
     defaultConfig {
+
         configurations.all {
             resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
         }
-        applicationId "com.example.meme"
+
+        applicationId "com.example.pract"
         minSdk 27
         targetSdk 30
         versionCode 1
