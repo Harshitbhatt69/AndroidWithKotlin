@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/vaFav"
+        android:title="Favorite"
+        android:icon="@drawable/ic_baseline_favorite"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/vaAddCont"
+        android:title="Add Contact"
+        android:icon="@drawable/ic_baseline_person_add"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/vaSettings"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/close"
+        android:title="Close"
+        app:showAsAction="never"/>
+
+</menu>
